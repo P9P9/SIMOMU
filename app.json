@@ -50,7 +50,7 @@
             },
         "CHANNEL": {
             "description": "معرف القناة بدون @ ",
-            "required": true            
+            "required": false,            
             "value": "ADWSL"
         }        
     },
