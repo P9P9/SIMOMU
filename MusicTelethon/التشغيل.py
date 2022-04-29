@@ -94,7 +94,7 @@ async def play(client, m: Message):
                     caption=f"""
 **🏷️ العنوان ↞ [{songname}]({link})
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,                )
             else:
                 await call_py.join_group_call(                    chat_id,                    AudioPiped(                        dl,                    ),                    stream_type=StreamType().pulse_stream,                )
@@ -105,7 +105,7 @@ async def play(client, m: Message):
                     caption=f"""
 **🏷️ العنوان ↞ [{songname}]({link})
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,                )
 
     else:
@@ -117,7 +117,7 @@ async def play(client, m: Message):
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await huehue.edit("**لا توجد نتائج*"")
+                await huehue.edit("**لا توجد نتائج**")
             else:
                 songname = search[0]
                 url = search[1]
@@ -136,7 +136,7 @@ async def play(client, m: Message):
 **🏷️  العنوان ↞ [{songname}]({url})
 ⏱️ مده المقطع ↞ {duration}
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,
                         )
                     else:
@@ -157,7 +157,7 @@ async def play(client, m: Message):
 **🏷️  العنوان ↞ [{songname}]({url})
 ⏱️ مده المقطع ↞ {duration}
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,
                             )
                         except Exception as ep:
@@ -199,7 +199,7 @@ async def vplay(client, m: Message):
                     caption=f"""
 **🏷️ العنوان ↞ [{songname}]({link})
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,
                 )
             else:
@@ -222,7 +222,7 @@ async def vplay(client, m: Message):
                     caption=f"""
 **🏷️ العنوان ↞ [{songname}]({link})
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,                )
 
     else:
@@ -255,7 +255,7 @@ async def vplay(client, m: Message):
 **🏷️  العنوان ↞ [{songname}]({url})
 ⏱️ مده المقطع ↞ {duration}
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من : {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من : {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,                        )
                     else:
                         try:
@@ -268,7 +268,7 @@ async def vplay(client, m: Message):
 **🏷️  العنوان ↞ [{songname}]({url})
 ⏱️ مده المقطع ↞ {duration}
 💬 ايدي المحادثه ↞ `{chat_id}`
-🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 طلب من ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,                            )
                         except Exception as ep:
                             await huehue.edit(f"`{ep}`")
@@ -309,7 +309,7 @@ async def playfrom(client, m: Message):
 **▶ ابدأ تشغيل الأغاني من {chat}
 🏷️ العنوان ↞ [{songname}]({link})
 💬 المحادثه ↞ `{chat_id}`
-🎶 من الطلب ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/T_G_L)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ReallyKoko)
+🎶 من الطلب ↞ {m.from_user.mention}**\n  ༄  [𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🎼](t.me/O_8_F)\n  ༄  [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜](t.me/ADWSL)
 """,                    )
             await hmm.delete()
             await m.reply(                f"➕ يضيف {lmt} أغنية في قائمة الانتظار \n• ارسل {HNDLR}تلقائي لاضاف اغنيه في القائمه الانتضار**"            )
